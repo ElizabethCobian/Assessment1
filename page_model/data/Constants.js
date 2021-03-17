@@ -3,14 +3,6 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-// Para la versión 2015
-// const dotenv = require('dotenv');
-// const result = dotenv.config();
-
-//import dotenv from 'dotenv'
-//dotenv.config()
-
-
 export const CREDENTIALS = {
     VALID_USER:{
         USERNAME: process.env.USERNAME,
